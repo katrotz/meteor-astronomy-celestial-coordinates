@@ -2,9 +2,18 @@
 
 > Add-on for the [Astronomy package](https://github.com/jagi/meteor-astronomy) that manages mongoDB references between models.
 
-The celestial coordinates introduces a new field type for Astronomy models: 
+##Installation
 
-	ref
+	meteor add katrotz:astronomy-celestial-coordinates
+
+
+##Changes
+
+The celestial coordinates introduces the following changes to the Astronomy:
+
+1. A new field type `ref`
+2. A new method to all Astronomy model instances `dbReference()`
+
 
 When defining reference fields, the collection name the reference will be pointing to should be defined under the namespace key.
 
