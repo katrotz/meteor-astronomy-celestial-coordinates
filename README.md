@@ -1,12 +1,29 @@
+# DEPRECATED
+
 # Celestial coordinates for Astronomy
 
-> Add-on for the [Astronomy package](https://github.com/jagi/meteor-astronomy) that manages mongoDB references between models.
+> A simple library that adds mongo DBRef relations support for the Meteor [Astronomy](https://github.com/jagi/meteor-astronomy) models.
 
-##Installation
+## Installation
 
-	meteor add katrotz:astronomy-celestial-coordinates
+```meteor add katrotz:astronomy-coordinates```
+
+## Introduction
 
 
+1. Assign DbRef
+2. Assign model
+3. Assign model id
+
+
+Coordinates can be defined as
+1. String
+2. Array of strings
+3. Object with overrides
+
+@todo: can not modify other class definitions for hasOne, hasMany and hasAndBelongsToMany coordinates
+
+///////////////////////////
 ##Changes
 
 The celestial coordinates introduces the following changes to the Astronomy:
